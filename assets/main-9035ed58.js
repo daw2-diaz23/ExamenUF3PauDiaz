@@ -39,3 +39,15 @@
     fetch(link.href, fetchOpts);
   }
 })();
+const home = {
+  template: `<h1>home</h1>`
+};
+const footer = {
+  template: `footer`
+};
+const header = {
+  template: `header`
+};
+document.querySelector("header").innerHTML = header.template;
+document.querySelector("main").innerHTML = home.template;
+document.querySelector("footer").innerHTML = footer.template;

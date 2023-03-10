@@ -40,14 +40,19 @@
   }
 })();
 const home = {
-  template: `<h1>home</h1>`
-};
-const footer = {
-  template: `footer`
+  template: `
+        <div class="container">
+            <div id="formPedido"></div>
+            <div id="tabla-pedidos"></div>
+        </div>
+    `
 };
 const header = {
-  template: `header`
+  template: `
+    
+    
+    
+    <h1 class="text-center">Pau Diaz</h1>`
 };
 document.querySelector("header").innerHTML = header.template;
 document.querySelector("main").innerHTML = home.template;
-document.querySelector("footer").innerHTML = footer.template;

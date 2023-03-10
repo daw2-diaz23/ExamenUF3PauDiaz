@@ -52,7 +52,7 @@ const header = {
 const formPedido = {
   template: `
     
-    <div class="beer-card mt-5">
+    <div class="d mt-5">
         <div class="card-container">
             <h4><b>San Miguel Especial</b></h4>
             <p>Cerveza rubia, suave y refrescante con un sabor ligeramente amargo.</p>
@@ -64,7 +64,7 @@ const formPedido = {
         <h1>Selecciona tu cerveza y haz el pedido</h1>
         <div class="mb-3 col-3">
             <label for="nombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="nombre" @input="generateAvatar" required>
+            <input type="text" class="form-control" id="nombre" required>
         </div>
         <div class="mb-3 col-3">
             <label for="nombre" class="form-label">Mesa</label>
@@ -107,18 +107,6 @@ const tablaCervezas = {
         <tr>
           <td>San Miguel Especial</td>
           <td>2</td>
-          <td><button type="button" class="btn btn-danger eliminar">Eliminar</button></td>
-          <td><button type="button" class="btn btn-success editar">Editar</button></td>
-        </tr>
-        <tr>
-          <td>Alhambra Reserva 1925</td>
-          <td>3</td>
-          <td><button type="button" class="btn btn-danger eliminar">Eliminar</button></td>
-          <td><button type="button" class="btn btn-success editar">Editar</button></td>
-        </tr>
-        <tr>
-          <td>Damm Estrella</td>
-          <td>4</td>
           <td><button type="button" class="btn btn-danger eliminar">Eliminar</button></td>
           <td><button type="button" class="btn btn-success editar">Editar</button></td>
         </tr>

@@ -114,8 +114,7 @@ const formPedido = {
     <div class="mb-3 col-3">
       <label for="birra" class="form-label">Elige tu birra</label>
       <select class="form-control" id="birra" required>
-        <option value="">Selecciona una birra</option>
-        ${cervezas.map((cerveza) => `<option value="${cerveza.id}">${cerveza.nombre}</option>`).join("")}
+        ${cervezas.map((cerveza) => `<option value="${cerveza.id}">${cerveza.nombre}</option>`)}
       </select>
     </div>
     <div class="mb-3 col-3">
